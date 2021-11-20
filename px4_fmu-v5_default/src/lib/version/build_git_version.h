@@ -3,10 +3,10 @@
 /* Do not edit! */
 #pragma once
 
-#define PX4_GIT_VERSION_STR "e9a21ee9110d3d25b1d330c3967c79d409da51a3"
-#define PX4_GIT_VERSION_BINARY 0xe9a21ee9110d3d25
-#define PX4_GIT_TAG_STR "v1.13.0-alpha1-2016-ge9a21ee911-dirty"
-#define PX4_GIT_BRANCH_NAME "master"
+#define PX4_GIT_VERSION_STR "9d322e2ded6b80c4e083d6703c80b089cd3f9930"
+#define PX4_GIT_VERSION_BINARY 0x9d322e2ded6b80c4
+#define PX4_GIT_TAG_STR "v1.13.0-alpha1-2017-g9d322e2ded-dirty"
+#define PX4_GIT_BRANCH_NAME "guanbin123"
 
 #define PX4_GIT_OEM_VERSION_STR  ""
 

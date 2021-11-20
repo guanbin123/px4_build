@@ -1557,6 +1557,7 @@ enum class params : uint16_t {
 	WV_YRATE_MAX,
 	XMF_COUT_ATT,
 	XMF_COUT_CMD,
+	XMF_COUT_STATUS,
 	XMF_KD_PITCH,
 	XMF_KD_ROLL,
 	XMF_KI_PITCH,
@@ -9300,6 +9301,11 @@ static constexpr param_info_s parameters[] = {
 	},
 
 	{
+		"XMF_COUT_STATUS",
+		.val = { .i = 0},
+	},
+
+	{
 		"XMF_KD_PITCH",
 		.val = { .f = -3.3 },
 	},
@@ -10882,6 +10888,7 @@ static constexpr param_type_t parameters_type[] = {
 	PARAM_TYPE_FLOAT,
 	PARAM_TYPE_FLOAT,
 	PARAM_TYPE_FLOAT,
+	PARAM_TYPE_INT32,
 	PARAM_TYPE_INT32,
 	PARAM_TYPE_INT32,
 	PARAM_TYPE_FLOAT,

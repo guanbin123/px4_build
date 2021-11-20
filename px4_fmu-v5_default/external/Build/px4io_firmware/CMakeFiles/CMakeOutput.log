@@ -35,17 +35,17 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_93182"
-[1/2] Building CXX object CMakeFiles/cmTC_93182.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_93182
+Run Build Command:"/usr/bin/ninja" "cmTC_d8936"
+[1/2] Building CXX object CMakeFiles/cmTC_d8936.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_d8936
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_b44c6"
-[1/2] Building CXX object CMakeFiles/cmTC_b44c6.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_b44c6
+Run Build Command:"/usr/bin/ninja" "cmTC_76480"
+[1/2] Building CXX object CMakeFiles/cmTC_76480.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_76480
 Using built-in specs.
 Reading specs from /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -57,18 +57,18 @@ Thread model: single
 gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
 COMPILER_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_b44c6' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl1bGXb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_b44c6 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_b44c6.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o
-COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_b44c6' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_76480' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cccE8SjB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_76480 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_76480.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_76480' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_b44c6"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_b44c6.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX executable cmTC_b44c6]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_76480"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_76480.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_76480]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -80,13 +80,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) ]
   ignore line: [COMPILER_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_b44c6' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  link line: [ /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl1bGXb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_b44c6 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_b44c6.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_76480' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  link line: [ /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cccE8SjB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_76480 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_76480.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o]
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccl1bGXb.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccE8SjB.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -95,7 +95,7 @@ Parsed CXX implicit link information from above output:
     arg [--sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b44c6] ==> ignore
+    arg [cmTC_76480] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
@@ -103,7 +103,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc] ==> dir [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc]
     arg [-L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib]
     arg [-L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib]
-    arg [CMakeFiles/cmTC_b44c6.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_76480.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore
@@ -131,9 +131,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_5a293"
-[1/2] Building CXX object CMakeFiles/cmTC_5a293.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_5a293
+Run Build Command:"/usr/bin/ninja" "cmTC_62f18"
+[1/2] Building CXX object CMakeFiles/cmTC_62f18.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_62f18
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -198,9 +198,9 @@ Run Build Command:"/usr/bin/ninja" "cmTC_5a293"
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_554f5"
-[1/2] Building CXX object CMakeFiles/cmTC_554f5.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_554f5
+Run Build Command:"/usr/bin/ninja" "cmTC_f6182"
+[1/2] Building CXX object CMakeFiles/cmTC_f6182.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_f6182
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -265,9 +265,9 @@ Run Build Command:"/usr/bin/ninja" "cmTC_554f5"
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_44425"
-[1/2] Building CXX object CMakeFiles/cmTC_44425.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_44425
+Run Build Command:"/usr/bin/ninja" "cmTC_7740f"
+[1/2] Building CXX object CMakeFiles/cmTC_7740f.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_7740f
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -332,9 +332,9 @@ Run Build Command:"/usr/bin/ninja" "cmTC_44425"
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_bb515"
-[1/2] Building CXX object CMakeFiles/cmTC_bb515.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_bb515
+Run Build Command:"/usr/bin/ninja" "cmTC_8126d"
+[1/2] Building CXX object CMakeFiles/cmTC_8126d.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_8126d
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -397,17 +397,17 @@ Run Build Command:"/usr/bin/ninja" "cmTC_bb515"
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_6adb6"
-[1/2] Building C object CMakeFiles/cmTC_6adb6.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_6adb6
+Run Build Command:"/usr/bin/ninja" "cmTC_19b2a"
+[1/2] Building C object CMakeFiles/cmTC_19b2a.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_19b2a
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_82a5a"
-[1/2] Building C object CMakeFiles/cmTC_82a5a.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_82a5a
+Run Build Command:"/usr/bin/ninja" "cmTC_33388"
+[1/2] Building C object CMakeFiles/cmTC_33388.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_33388
 Using built-in specs.
 Reading specs from /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -419,18 +419,18 @@ Thread model: single
 gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
 COMPILER_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_82a5a' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsVvfjv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_82a5a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_82a5a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o
-COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_82a5a' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_33388' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGrIP9P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_33388 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_33388.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_33388' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_82a5a"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_82a5a.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C executable cmTC_82a5a]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_33388"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_33388.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_33388]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -442,13 +442,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) ]
   ignore line: [COMPILER_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_82a5a' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  link line: [ /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsVvfjv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_82a5a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_82a5a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_33388' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  link line: [ /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGrIP9P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -X -o cmTC_33388 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1 -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib CMakeFiles/cmTC_33388.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtend.o /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtn.o]
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccsVvfjv.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGrIP9P.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -457,7 +457,7 @@ Parsed C implicit link information from above output:
     arg [--sysroot=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_82a5a] ==> ignore
+    arg [cmTC_33388] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crti.o] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/crtbegin.o] ==> ignore
     arg [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
@@ -465,7 +465,7 @@ Parsed C implicit link information from above output:
     arg [-L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc] ==> dir [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc]
     arg [-L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib]
     arg [-L/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib]
-    arg [CMakeFiles/cmTC_82a5a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_33388.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
@@ -491,9 +491,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_b823a"
-[1/2] Building C object CMakeFiles/cmTC_b823a.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_b823a
+Run Build Command:"/usr/bin/ninja" "cmTC_f791e"
+[1/2] Building C object CMakeFiles/cmTC_f791e.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_f791e
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -505,9 +505,9 @@ Run Build Command:"/usr/bin/ninja" "cmTC_b823a"
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_9b66e"
-[1/2] Building C object CMakeFiles/cmTC_9b66e.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_9b66e
+Run Build Command:"/usr/bin/ninja" "cmTC_9ccef"
+[1/2] Building C object CMakeFiles/cmTC_9ccef.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_9ccef
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -519,9 +519,9 @@ Run Build Command:"/usr/bin/ninja" "cmTC_9b66e"
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/guanbin/PX4-Autopilot/build/px4_fmu-v5_default/external/Build/px4io_firmware/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_599df"
-[1/2] Building C object CMakeFiles/cmTC_599df.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_599df
+Run Build Command:"/usr/bin/ninja" "cmTC_bf044"
+[1/2] Building C object CMakeFiles/cmTC_bf044.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_bf044
 
 
     Feature record: C_FEATURE:1c_function_prototypes

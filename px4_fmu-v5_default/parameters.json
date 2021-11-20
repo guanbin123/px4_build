@@ -26665,6 +26665,14 @@
       "shortDesc": "XMF_COUT_CMD"
     },
     {
+      "name": "XMF_COUT_STATUS",
+      "type": "Int32",
+      "default": 0,
+      "group": "Miscellaneous",
+      "category": "Standard",
+      "shortDesc": "XMF_COUT_STATUS"
+    },
+    {
       "name": "XMF_KD_PITCH",
       "type": "Float",
       "default": -3.3,

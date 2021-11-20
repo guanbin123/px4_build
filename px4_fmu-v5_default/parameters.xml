@@ -12238,6 +12238,9 @@
     <parameter default="0" name="XMF_COUT_CMD" type="INT32">
       <short_desc>XMF_COUT_CMD</short_desc>
     </parameter>
+    <parameter default="0" name="XMF_COUT_STATUS" type="INT32">
+      <short_desc>XMF_COUT_STATUS</short_desc>
+    </parameter>
     <parameter default="-3.3" name="XMF_KD_PITCH" type="FLOAT">
       <short_desc>XMF_KD_PITCH</short_desc>
     </parameter>

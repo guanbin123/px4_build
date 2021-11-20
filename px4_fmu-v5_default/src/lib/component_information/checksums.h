@@ -1,4 +1,4 @@
 #include <stdint.h>
 namespace component_information {
-static constexpr uint32_t component_general_crc = 2890031673;
+static constexpr uint32_t component_general_crc = 2569374191;
 }

@@ -6,6 +6,70 @@
       "event_groups": {
         "default": {
           "events": {
+            "7626787": {
+              "name": "px4io_io_ver_mismatch",
+              "message": "IO version mismatch, please upgrade the software"
+            },
+            "8912808": {
+              "name": "px4io_comm_failed",
+              "message": "Failed to communicate with IO, aborting initialization"
+            },
+            "15923029": {
+              "name": "px4io_proto_fw_mismatch",
+              "message": "IO protocol/firmware mismatch, aborting initialization"
+            },
+            "4472241": {
+              "name": "px4io_config_read_failed",
+              "message": "IO config read failed, aborting initialization"
+            },
+            "2741589": {
+              "name": "px4io_inair_restart_recovery",
+              "message": "Recovering from in-air restart"
+            },
+            "11762527": {
+              "name": "px4io_inair_restart_recovery_failed",
+              "message": "Failed to recover from in-air restart, aborting initialization"
+            },
+            "698448": {
+              "name": "px4io_init_in_failsafe",
+              "message": "IO is in failsafe, forcing flight termination"
+            },
+            "9128708": {
+              "name": "px4io_inair_restart_recovery_failed3",
+              "message": "Failed to recover from in-air restart, aborting initialization"
+            },
+            "9129111": {
+              "name": "px4io_inair_restart_recovery_failed2",
+              "message": "Failed to recover from in-air restart, aborting initialization"
+            },
+            "1290073": {
+              "name": "px4io_io_rc_config_upload_failed",
+              "message": "IO RC config upload failed, aborting initialization"
+            },
+            "4693161": {
+              "name": "px4io_failsafe_upload_failed",
+              "message": "Failsafe upload failed, threshold: {1} us",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "12286459": {
+              "name": "px4io_config_rc_rejected",
+              "message": "Config for RC{1} rejected by IO",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "9535505": {
+              "name": "px4io_mixer_upload_failed",
+              "message": "IO mixer upload failed"
+            },
             "9351472": {
               "name": "rtl_unsupported_mav_frame",
               "message": "RTL: unsupported MAV_FRAME ({1})",
@@ -95,70 +159,6 @@
             "185258": {
               "name": "rtl_land_at_destination",
               "message": "RTL: land at destination"
-            },
-            "7626787": {
-              "name": "px4io_io_ver_mismatch",
-              "message": "IO version mismatch, please upgrade the software"
-            },
-            "8912808": {
-              "name": "px4io_comm_failed",
-              "message": "Failed to communicate with IO, aborting initialization"
-            },
-            "15923029": {
-              "name": "px4io_proto_fw_mismatch",
-              "message": "IO protocol/firmware mismatch, aborting initialization"
-            },
-            "4472241": {
-              "name": "px4io_config_read_failed",
-              "message": "IO config read failed, aborting initialization"
-            },
-            "2741589": {
-              "name": "px4io_inair_restart_recovery",
-              "message": "Recovering from in-air restart"
-            },
-            "11762527": {
-              "name": "px4io_inair_restart_recovery_failed",
-              "message": "Failed to recover from in-air restart, aborting initialization"
-            },
-            "698448": {
-              "name": "px4io_init_in_failsafe",
-              "message": "IO is in failsafe, forcing flight termination"
-            },
-            "9128708": {
-              "name": "px4io_inair_restart_recovery_failed3",
-              "message": "Failed to recover from in-air restart, aborting initialization"
-            },
-            "9129111": {
-              "name": "px4io_inair_restart_recovery_failed2",
-              "message": "Failed to recover from in-air restart, aborting initialization"
-            },
-            "1290073": {
-              "name": "px4io_io_rc_config_upload_failed",
-              "message": "IO RC config upload failed, aborting initialization"
-            },
-            "4693161": {
-              "name": "px4io_failsafe_upload_failed",
-              "message": "Failsafe upload failed, threshold: {1} us",
-              "arguments": [
-                {
-                  "type": "uint16_t",
-                  "name": "arg0"
-                }
-              ]
-            },
-            "12286459": {
-              "name": "px4io_config_rc_rejected",
-              "message": "Config for RC{1} rejected by IO",
-              "arguments": [
-                {
-                  "type": "uint16_t",
-                  "name": "arg0"
-                }
-              ]
-            },
-            "9535505": {
-              "name": "px4io_mixer_upload_failed",
-              "message": "IO mixer upload failed"
             },
             "10398259": {
               "name": "mission_execute_rev",
